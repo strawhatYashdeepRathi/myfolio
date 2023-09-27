@@ -1,0 +1,42 @@
+.port-about{
+  width: 100%;
+  margin: 3rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.port-about-left{
+  text-align: center;
+  margin: auto;
+  padding: 1rem;
+  max-width: 350px;
+}
+
+.port-about-left p {
+  margin: 1.2rem;
+}
+
+.port-about-right {
+  width: 50%;
+}
+
+.port-about-img-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.port-about-img-top div {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+}
+
+.port-about-img-top >div >img {
+  height: 45px;
+  padding-right: 20px;
+  padding-left: 20px;
+}

@@ -1,9 +1,16 @@
 import React from "react";
+import Navbar from "../components/navbar";
+import HeroImg from "../components/HeroImg";
+import Footer from "../components/Footer";
+import About from "../components/about";
 
 const Home = ()=>{
   return (
     <>
-    Home hu mein
+      <Navbar />
+      <HeroImg />
+      <About />
+      <Footer />
     </>
   )
 }
